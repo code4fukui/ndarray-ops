@@ -1,5 +1,5 @@
-var ops = require("../ndarray-ops.js")
+import ops from "../ndarray-ops.js"
 
-for(var i in ops) {
+for (const i in ops) {
   console.log("*", i)
 }

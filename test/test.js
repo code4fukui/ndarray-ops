@@ -1,6 +1,6 @@
-var ops = require("../ndarray-ops.js")
-  , ndarray = require("ndarray")
-  , tape = require("tape")
+import ops from "../ndarray-ops.js"
+import ndarray from "ndarray"
+import tape from "tape"
 
 tape("ndarray-ops", function(t) {
 

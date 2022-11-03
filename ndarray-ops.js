@@ -1,6 +1,6 @@
-"use strict"
+import compile from "cwise-compiler"
 
-var compile = require("cwise-compiler")
+const exports = {}
 
 var EmptyProc = {
   body: "",
@@ -458,4 +458,4 @@ exports.equals = compile({
   funcName: "equals"
 })
 
-
+export default exports

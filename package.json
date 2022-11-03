@@ -15,7 +15,8 @@
     "ndarray": "~1.0.4"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "node test/test.js",
+    "build-es": "deno bundle ndarray-ops.js | terser -c -m --module -o ndarray-ops.min.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,6 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "dbc9e44102e02575a0de5feb71b47674422d8e49"
+  "gitHead": "dbc9e44102e02575a0de5feb71b47674422d8e49",
+  "type": "module"
 }

@@ -1,6 +1,6 @@
 //First, import libraries
-var ndarray = require("ndarray")
-  , ops = require("../ndarray-ops.js")
+import ndarray from "ndarray"
+import ops from "../ndarray-ops.js"
 
 
 //Next, create some arrays

@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "cwise-compiler": "https://code4fukui.github.io/cwise-compiler/compiler.min.js",
+    "ndarray": "https://code4fukui.github.io/ndarray/ndarray.min.js"
+  }
+}
